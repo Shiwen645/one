@@ -1,0 +1,5 @@
+{
+  "navigationBarTitleText": "自定义标题",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true
+}

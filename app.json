@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/dj/dj",
+    "pages/pk/pk",
+    "pages/TV/TV",
+    "pages/wd/wd"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/image/tencent-video.png",
+      "selectedIconPath": "/image/腾讯视频2.png",
+      "custom" : "true",
+      "color": "#000000",
+      "selectedColor": "#ffffff"
+    },{
+      "pagePath": "pages/dj/dj",
+      "text": "短剧",
+      "iconPath": "/image/短剧.png",
+      "selectedIconPath": "/image/短剧2.png"
+    },{
+      "pagePath": "pages/pk/pk",
+      "text": "片库",
+      "iconPath": "/image/片库.png",
+      "selectedIconPath": "/image/名片库.png"
+    },{
+      "pagePath": "pages/TV/TV",
+      "text": "TV助手",
+      "iconPath": "/image/TV.png",
+      "selectedIconPath": "/image/TV(1).png"
+    },{
+      "pagePath": "pages/wd/wd",
+      "text": "我的",
+      "iconPath": "/image/我的.png",
+      "selectedIconPath": "/image/我的 (1).png"
+    }]
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

@@ -1,0 +1,85 @@
+<!-- page.wxml -->
+<view class="custom-nav">
+  <image class="nav-image" src="/image/腾讯视频.png"></image>
+  <view class="search-container">
+    <input class="search-input" placeholder="输入片名、主演或导演。。。。" placeholder-class="place" bindinput="onSearchInput" />
+  </view>
+</view>
+<view class="nav-bar">
+  <view class="nav-item" wx:for="{{navList}}" wx:key="index" data-index="{{index}}" bindtap="switchTab">
+    <text class="nav-text {{activeIndex === index ? 'active' : ''}}">{{item.title}}</text>
+  </view>
+</view>
+<!-- 页面内容 -->
+<view class="page-content">
+<!-- 内容1 -->
+  <view class="page1">
+    <view>
+      <view>独播</view>
+      <view>更新至06集</view>
+      <view>大奉打更人</view>
+    </view>
+    <view>
+     <view>独播</view>
+      <view>全26集</view>
+      <view>剑来</view>
+    </view>
+    <view>
+      <view>VIP</view>
+      <view>更新到12~28期</view>
+      <view>奔跑吧</view>
+    </view>
+    <view>
+      <view>VIP</view>
+      <view>9.0分</view>
+      <view>胜券在握·裁到大动脉？</view>
+    </view>
+  </view>
+<!-- 内容2 -->
+<view class="page2">
+  <view class="page2-top"></view>
+  <view class="page2-bottom">
+    <view class="page2-bottom-top">
+      <view></view>
+      <view>
+        <view>大奉打更人</view>
+        <view>王鹤棣 田曦薇 英雄成长</view>
+      </view>
+      <view>
+        <view class="zhui">
+          <view style="background-image: url(/image/追加.svg); background-size: 20px 20px; background-repeat: no-repeat; background-position: 5px 4px;"></view>
+          <view style="margin-top: 2px;">追</view>
+        </view>
+        <view style="font-size: 10px; margin-top: 5px; color: rgb(92, 92, 92);">6090万人在追</view>
+      </view>
+    </view>
+    <view class="page2-bottom-bottom">
+      <view style="font-size: 11px;">热搜总榜第一名></view>
+      <view style="font-size: 11px;">讨论破200万></view>
+    </view>
+  </view>
+</view>
+<view class="page2">
+  <view class="page2-top" style="background-image: url(https://tv.puui.qpic.cn/tv/0/mz_tv_image_frontend_442f1e-8_1097787796_1735550258191711/450?max_age=7776001);"></view>
+  <view class="page2-bottom">
+    <view class="page2-bottom-top">
+      <view style="background-image: url(https://vcover-vt-pic.puui.qpic.cn/vcover_vt_pic/0/mzc00200mnco4mw1719195766644/260?imageView2/2/w/171/h/238);"></view>
+      <view>
+        <view>猎罪图鉴2</view>
+        <view>檀健次 金世佳 张柏嘉 ..</view>
+      </view>
+      <view>
+        <view class="zhui">
+          <view style="background-image: url(/image/追加.svg); background-size: 20px 20px; background-repeat: no-repeat; background-position: 5px 4px;"></view>
+          <view style="margin-top: 2px;">追</view>
+        </view>
+        <view style="font-size: 10px; margin-top: 5px; color: rgb(92, 92, 92);">7090万人在追</view>
+      </view>
+    </view>
+    <view class="page2-bottom-bottom">
+      <view style="font-size: 11px;">热搜总榜第二名></view>
+      <view style="font-size: 11px;">讨论破100万></view>
+    </view>
+  </view>
+</view>
+</view>
