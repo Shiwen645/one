@@ -26,6 +26,6 @@
 ## 联系方式
 如有任何问题或建议，请通过以下方式联系我：
 - 电子邮件: lllllsssswww@gmail.com
-- 
-- 微信:
-![微信图片_20241231120816](https://github.com/user-attachments/assets/1d994595-c63f-4790-a15e-c25a2a1f020a)
+
+
+- 微信:![微信图片_20241231120816（2）](https://github.com/user-attachments/assets/62ae659d-a083-407c-a37f-1b81c57450b0)
