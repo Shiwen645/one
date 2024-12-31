@@ -17,7 +17,7 @@
 - JavaScript
 - CSS
 - ...
-##这是效果展示图,现在只有一个页面，大家感兴趣的话可以一起创作一下。
+## 这是效果展示图,现在只有一个页面，大家感兴趣的话可以一起创作一下。
 <img width="190" alt="屏幕截图 2024-12-31 115113" src="https://github.com/user-attachments/assets/ed7855a4-b426-4dca-b93b-7d4d43c4246e" />
 
 ## 鸣谢
